@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Sottotitolo con informazioni aggiuntive intorno alla lunghezza",
+      "id": "core-models-edu",
+      "title": "Modelli del set di base",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>Questo simpatico robot non solo reagisce a colori e oggetti, ma è anche in grado di bilanciarsi durante gli spostamenti.</p>",
+          "id": "model-1",
+          "title": "Robot giroscopico",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>Scansiona e carica oggetti colorati e fai in modo che il Selezionatore di colori li posizioni nell'area appropriata.</p>",
+          "id": "model-2",
+          "title": "Selezionatore di colori",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Interagisci con questo fantastico robot: coccolalo, nutrilo e osservane le reazioni.</p>",
+          "id": "model-3",
+          "title": "Cucciolo",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>Preleva oggetti in posizioni specifiche e li deposita in un'altra posizione.</p>",
+          "id": "model-4",
+          "title": "Braccio robotico H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

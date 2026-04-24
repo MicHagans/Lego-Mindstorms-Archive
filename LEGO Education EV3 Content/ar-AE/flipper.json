@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "ابدأ هنا",
+    "description": "التعرف على محتوى EV3 في ثلاثة أنشطه ممتعه!",
+    "link": {
+      "path": "/content/start/",
+      "title": "بدء"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "خطط الوحدة",
+        "description": "يتم تجميع جميع دروس EV3 الدراسية في وحدات ذات موضوعات محددة لاشراك طلاب المدارس المتوسطة في تعلم STEM بشكل فعّال.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "نماذج المجموعة الأساسية",
+        "description": "سوف تلهمك هذه النماذج وتتحدي مهارات الروبوت لديك. انتقل بمحتوى LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education EV3 إلى المستوى التالي!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

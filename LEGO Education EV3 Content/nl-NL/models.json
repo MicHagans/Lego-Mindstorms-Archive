@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Ondertitel van vergelijkbare lengte met extra informatie",
+      "id": "core-models-edu",
+      "title": "Modellen in de basisset",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>Deze stoere robot reageert niet alleen op kleuren en objecten, maar houdt zichzelf tijdens het bewegen ook in balans!</p>",
+          "id": "model-1",
+          "title": "Gyro Boy",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>Scan en laad gekleurde objecten, en laat de kleursorteerder ze in het juiste gebied zetten!</p>",
+          "id": "model-2",
+          "title": "Kleursorteerder",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Speel met deze charmante robot. Aai hem, geef hem eten en kijk hoe hij reageert!</p>",
+          "id": "model-3",
+          "title": "Pup",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>Raap op specifieke locaties objecten op en verplaats ze!</p>",
+          "id": "model-4",
+          "title": "Robotarm H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

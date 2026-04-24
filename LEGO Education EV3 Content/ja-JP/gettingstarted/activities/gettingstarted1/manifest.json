@@ -1,0 +1,134 @@
+{
+  "id": "gettingstarted1",
+  "title": "Hello World",
+  "duration": 15,
+  "level": "Beginner",
+  "isGettingStarted": true,
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "ev3display_displayImage",
+    "ev3sound_playSoundUntilDone"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "こちらはEV3 ブロックです。",
+      "description": "<p>ハブを使って、簡単なプログラムを作成します。準備はいいですか？</p>",
+      "image": "/images/activities/gettingstarted/gs1/card01.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "次のステップ"
+      }
+    },
+    {
+      "id": "step2",
+      "title": "EV3 ブロックを用意します。",
+      "description": "<p>背面のカバーを外してEV3 充電式バッテリーを挿入してください。カバーは単三乾電池を使用する際に必要になるので取っておきます。</p>",
+      "image": "/images/activities/gettingstarted/gs1/card02.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "次のステップ"
+      }
+    },
+    {
+      "id": "step3",
+      "title": "EV3 ブロックの電源を入れます。",
+      "description": "中央ボタンを押して、EV3ブロックの電源をオンにします。",
+      "image": "/images/activities/gettingstarted/gs1/card03.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "次のステップ"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step4",
+      "hideCard": true,
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "hub",
+        "description": "EV3 ブロックを接続"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step5",
+      "overlayInstruction": "最初のプログラムを作成",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "nextTrigger": {
+        "id": "program",
+        "program": [
+          [
+            "ev3events_whenProgramStarts",
+            "ev3display_displayImage",
+            "ev3sound_playSoundUntilDone"
+          ]
+        ]
+      },
+      "ghostBlocks": [
+        {
+          "type": "hat",
+          "blockid": "ev3events_whenProgramStarts"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3display_displayImage"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3sound_playSoundUntilDone"
+        }
+      ]
+    },
+    {
+      "id": "step6",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "play",
+        "description": "ダウンロードして実行"
+      },
+      "nextTrigger": {
+        "id": "play"
+      }
+    },
+    {
+      "id": "step7",
+      "title": "Hello world!",
+      "description": "<p>次は何でしょう？<br><br>次のアクティビティを少し見てみましょう。</p>",
+      "image": "/images/activities/gettingstarted/gs1/card04.png",
+      "requireConnection": true,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "次のアクティビティ"
+      },
+      "doneAction": {
+        "startNext": "gettingstarted2",
+        "startTitle": "モーターとセンサー"
+      }
+    },
+    {
+      "id": "step8",
+      "allowClickThrough": true
+    }
+  ]
+}

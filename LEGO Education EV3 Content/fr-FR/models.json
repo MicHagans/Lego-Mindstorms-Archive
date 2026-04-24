@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Sous-titre informatif d’environ cette longueur",
+      "id": "core-models-edu",
+      "title": "Modèles de l’ensemble de base",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>Ce robot cool ne se contente pas de réagir aux couleurs et aux objets, il s’équilibre également à mesure qu’il se déplace !</p>",
+          "id": "model-1",
+          "title": "Gyro Boy",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>Scannez et chargez des objets colorés, puis laissez le Trieur de couleurs les placer au bon endroit.</p>",
+          "id": "model-2",
+          "title": "Trieur de couleurs",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Interagissez avec cet adorable robot. Caressez-le, nourrissez-le et observez ses réactions !</p>",
+          "id": "model-3",
+          "title": "Chiot",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>Ramassez des objets à divers endroits et déplacez-les jusqu'à un autre emplacement.</p>",
+          "id": "model-4",
+          "title": "Bras robotique H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

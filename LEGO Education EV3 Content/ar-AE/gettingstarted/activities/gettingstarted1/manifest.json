@@ -1,0 +1,134 @@
+{
+  "id": "gettingstarted1",
+  "title": "أهلًا بالعالم",
+  "duration": 15,
+  "level": "Beginner",
+  "isGettingStarted": true,
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "ev3display_displayImage",
+    "ev3sound_playSoundUntilDone"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "هذه وحدة بناء EV3.",
+      "description": "<p>سوف تُنشئ برنامجًا صغيرًا لها. هل أنت مستعد؟</p>",
+      "image": "/images/activities/gettingstarted/gs1/card01.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "الخطوة التالية"
+      }
+    },
+    {
+      "id": "step2",
+      "title": "قم بإعداد وحدة بناء EV3 خاصتك",
+      "description": "<p>قم بإزالة الغطاء الخلفي وادخل بطارية EV3 القابلة لإعادة الشحن. احتفظ بالغطاء. سوف تحتاج إليه إذا قررت استخدام بطاريات AA في أي وقت.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card02.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "الخطوة التالية"
+      }
+    },
+    {
+      "id": "step3",
+      "title": "قم بتشغيل وحدة بناء EV3",
+      "description": "اضغط علي الزر الأوسط لتشغيل وحدة البناء EV3.",
+      "image": "/images/activities/gettingstarted/gs1/card03.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "الخطوة التالية"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step4",
+      "hideCard": true,
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "hub",
+        "description": "قم بتوصيل وحدة بناء EV3"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step5",
+      "overlayInstruction": "أنشئ برنامجك الأول",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "nextTrigger": {
+        "id": "program",
+        "program": [
+          [
+            "ev3events_whenProgramStarts",
+            "ev3display_displayImage",
+            "ev3sound_playSoundUntilDone"
+          ]
+        ]
+      },
+      "ghostBlocks": [
+        {
+          "type": "hat",
+          "blockid": "ev3events_whenProgramStarts"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3display_displayImage"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3sound_playSoundUntilDone"
+        }
+      ]
+    },
+    {
+      "id": "step6",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "play",
+        "description": "تنزيل وتشغيل"
+      },
+      "nextTrigger": {
+        "id": "play"
+      }
+    },
+    {
+      "id": "step7",
+      "title": "أهلًا بالعالم!",
+      "description": "<p>ما التالي؟<br><br>ألقِ نظرة خاطفة على النشاط التالي.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card04.png",
+      "requireConnection": true,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "النشاط التالي"
+      },
+      "doneAction": {
+        "startNext": "gettingstarted2",
+        "startTitle": "المحركات والمستشعرات"
+      }
+    },
+    {
+      "id": "step8",
+      "allowClickThrough": true
+    }
+  ]
+}

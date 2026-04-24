@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "この長さを目安とする追加情報を含むサブタイトル",
+      "id": "core-models-edu",
+      "title": "基本セットモデル",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>色や物に反応するだけでなく、移動しながら自分でバランスをとることができる、自律型ロボットです！</p>",
+          "id": "model-1",
+          "title": "ジャイロ ボーイ",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>色の付いたオブジェクトをスキャンして読み込めば、カラーソーターが正しいエリアに置いてくれます！</p>",
+          "id": "model-2",
+          "title": "カラーソーター",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>一緒に遊べるかわいいペットロボットです。なでたりエサをあげたりして、反応を見てみましょう！</p>",
+          "id": "model-3",
+          "title": "パピー",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>特定の場所から物を回収して、別の場所に運びます！</p>",
+          "id": "model-4",
+          "title": "ロボットアーム H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

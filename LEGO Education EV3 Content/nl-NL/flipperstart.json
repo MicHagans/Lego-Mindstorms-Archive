@@ -1,0 +1,46 @@
+[
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Hallo wereld",
+        "description": "Je eerste programma maken",
+        "image": "/images/gettingstarted1-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted1"
+      },
+      {
+        "title": "Motoren en sensoren",
+        "description": "In- en uitgangen aansturen",
+        "image": "/images/gettingstarted2-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted2"
+      },
+      {
+        "title": "Kom in beweging",
+        "description": "Een rijbasis bouwen",
+        "image": "/images/gettingstarted3-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted3"
+      }
+    ]
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Voorbereiding door de leerkracht",
+        "description": "Bereid de EV3 basissets voor voordat je met de eerste les begint.",
+        "image": "/images/teacher-preparation.png",
+        "background": "#fff",
+        "link": "/modal/teacher-preparation"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Hello World",
+        "description": "创建你的第一个程序",
+        "image": "/images/gettingstarted1-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted1"
+      },
+      {
+        "title": "电机和传感器",
+        "description": "控制输入和输出",
+        "image": "/images/gettingstarted2-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted2"
+      },
+      {
+        "title": "移动起来",
+        "description": "搭建驱动底座",
+        "image": "/images/gettingstarted3-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted3"
+      }
+    ]
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "教师准备",
+        "description": "在开始第一课之前，请准备好 EV3 核心套装。",
+        "image": "/images/teacher-preparation.png",
+        "background": "#fff",
+        "link": "/modal/teacher-preparation"
+      }
+    ]
+  }
+]

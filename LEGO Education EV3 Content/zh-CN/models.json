@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "包含这种长度附加信息的副标题",
+      "id": "core-models-edu",
+      "title": "核心套装模型",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>这个带有姿势的机器人不仅会对颜色和物体做出反应，而且能够在移动过程中自我平衡！</p>",
+          "id": "model-1",
+          "title": "陀螺男孩",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>扫描并加载彩色物体，让颜色分拣机将它们放置在正确的区域！</p>",
+          "id": "model-2",
+          "title": "颜色分拣机",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>与这个可爱机器人进行互动，抚摸它、喂养它并观察它的反应！</p>",
+          "id": "model-3",
+          "title": "小狗",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>从特定位置拾取物体并将其运送到其它地方！</p>",
+          "id": "model-4",
+          "title": "机械臂 H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

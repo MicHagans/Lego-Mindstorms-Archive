@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "시작하기",
+    "description": "세 가지의 재미있는 활동을 통해 EV3와 친해져요!",
+    "link": {
+      "path": "/content/start/",
+      "title": "시작"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "학습단원 계획",
+        "description": "모든 EV3 Classroom 수업은 중.고등학교 학생들의 몰입적인 STEM 학습을 위해 테마별 학습단원으로 그룹화되어 있어요.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "코어 세트 모델",
+        "description": "여기 보이는 모델들을 통해 아이디어를 얻고, 도전 과제로 로봇 기술을 배우고, 한 차원 높은 레고<sup>®</sup> 마인드스톰<sup>®</sup> 에듀케이션 EV3 세상을 체험해보세요!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

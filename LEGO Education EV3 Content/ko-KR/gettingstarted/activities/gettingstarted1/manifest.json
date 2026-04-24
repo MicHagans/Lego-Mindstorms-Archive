@@ -1,0 +1,134 @@
+{
+  "id": "gettingstarted1",
+  "title": "Hello World",
+  "duration": 15,
+  "level": "Beginner",
+  "isGettingStarted": true,
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "ev3display_displayImage",
+    "ev3sound_playSoundUntilDone"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "이것은 EV3 브릭이에요.",
+      "description": "<p>지금부터 작은 프로그램을 하나 만들 거에요. 준비됐나요?</p>",
+      "image": "/images/activities/gettingstarted/gs1/card01.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "다음 단계"
+      }
+    },
+    {
+      "id": "step2",
+      "title": "EV3 브릭을 준비하세요.",
+      "description": "<p>브릭의 덮개를 열고 EV3 충전식 배터리를 끼워 넣으세요. 덮개는 잘 보관해 두세요. AA 배터리를 대신 사용하려면 이게 필요할 거예요.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card02.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "다음 단계"
+      }
+    },
+    {
+      "id": "step3",
+      "title": "EV3 브릭을 켜세요.",
+      "description": "가운데 버튼을 눌러 EV3 브릭의 전원을 켜세요.",
+      "image": "/images/activities/gettingstarted/gs1/card03.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "다음 단계"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step4",
+      "hideCard": true,
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "hub",
+        "description": "EV3 브릭을 연결하세요"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step5",
+      "overlayInstruction": "첫 번째 프로그램을 만드세요",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "nextTrigger": {
+        "id": "program",
+        "program": [
+          [
+            "ev3events_whenProgramStarts",
+            "ev3display_displayImage",
+            "ev3sound_playSoundUntilDone"
+          ]
+        ]
+      },
+      "ghostBlocks": [
+        {
+          "type": "hat",
+          "blockid": "ev3events_whenProgramStarts"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3display_displayImage"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3sound_playSoundUntilDone"
+        }
+      ]
+    },
+    {
+      "id": "step6",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "play",
+        "description": "다운로드 및 실행"
+      },
+      "nextTrigger": {
+        "id": "play"
+      }
+    },
+    {
+      "id": "step7",
+      "title": "Hello world!",
+      "description": "<p>다음은 뭔가요?<br><br>다음 활동에 대해 알아보아요.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card04.png",
+      "requireConnection": true,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "다음 활동"
+      },
+      "doneAction": {
+        "startNext": "gettingstarted2",
+        "startTitle": "모터와 센서"
+      }
+    },
+    {
+      "id": "step8",
+      "allowClickThrough": true
+    }
+  ]
+}

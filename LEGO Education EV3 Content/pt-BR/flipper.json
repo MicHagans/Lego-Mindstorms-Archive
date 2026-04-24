@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Comece aqui",
+    "description": "Familiarize-se com o EV3 em três atividades divertidas!",
+    "link": {
+      "path": "/content/start/",
+      "title": "Iniciar"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Planos de Unidade",
+        "description": "Todas as aulas de EV3 Classroom estão agrupadas em unidades temáticas que envolvem ativamente os alunos do ensino fundamental II no aprendizado de STEM.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Modelos do Conjunto Principal",
+        "description": "Esses modelos vão inspirar você e desafiar suas habilidades em robótica. Leve o EV3 LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education a um novo patamar!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

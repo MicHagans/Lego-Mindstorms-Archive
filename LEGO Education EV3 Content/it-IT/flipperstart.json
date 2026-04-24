@@ -1,0 +1,46 @@
+[
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Hello World",
+        "description": "Creazione del tuo primo programma",
+        "image": "/images/gettingstarted1-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted1"
+      },
+      {
+        "title": "Motori e sensori",
+        "description": "Controllo di input e output",
+        "image": "/images/gettingstarted2-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted2"
+      },
+      {
+        "title": "In movimento",
+        "description": "Creazione di una struttura motrice",
+        "image": "/images/gettingstarted3-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted3"
+      }
+    ]
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Preparazione per gli insegnanti",
+        "description": "Prima di iniziare la prima lezione, prepara i Set di base EV3.",
+        "image": "/images/teacher-preparation.png",
+        "background": "#fff",
+        "link": "/modal/teacher-preparation"
+      }
+    ]
+  }
+]

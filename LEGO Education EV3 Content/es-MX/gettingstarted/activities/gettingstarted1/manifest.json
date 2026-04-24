@@ -1,0 +1,134 @@
+{
+  "id": "gettingstarted1",
+  "title": "Hola, mundo",
+  "duration": 15,
+  "level": "Beginner",
+  "isGettingStarted": true,
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "ev3display_displayImage",
+    "ev3sound_playSoundUntilDone"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "Este es el Ladrillo EV3.",
+      "description": "<p>Vas a crear un pequeño programa para él. ¿Estás listo?</p>",
+      "image": "/images/activities/gettingstarted/gs1/card01.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Siguiente paso"
+      }
+    },
+    {
+      "id": "step2",
+      "title": "Prepara tu Ladrillo EV3.",
+      "description": "<p>Retira la tapa de la parte posterior e inserta la batería recargable EV3. Guarda muy bien la tapa. La necesitarás en caso de que desees utilizar baterías AA.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card02.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Siguiente paso"
+      }
+    },
+    {
+      "id": "step3",
+      "title": "Enciende tu Ladrillo EV3.",
+      "description": "Presiona el botón central del ladrillo EV3 para encenderlo.",
+      "image": "/images/activities/gettingstarted/gs1/card03.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Siguiente paso"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step4",
+      "hideCard": true,
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "hub",
+        "description": "Conecta tu Ladrillo EV3"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step5",
+      "overlayInstruction": "Crea tu primer programa",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "nextTrigger": {
+        "id": "program",
+        "program": [
+          [
+            "ev3events_whenProgramStarts",
+            "ev3display_displayImage",
+            "ev3sound_playSoundUntilDone"
+          ]
+        ]
+      },
+      "ghostBlocks": [
+        {
+          "type": "hat",
+          "blockid": "ev3events_whenProgramStarts"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3display_displayImage"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3sound_playSoundUntilDone"
+        }
+      ]
+    },
+    {
+      "id": "step6",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "play",
+        "description": "Descarga y ejecuta"
+      },
+      "nextTrigger": {
+        "id": "play"
+      }
+    },
+    {
+      "id": "step7",
+      "title": "¡Hola, mundo!",
+      "description": "<p>¿Qué sigue?<br><br>Echa un vistazo a la siguiente actividad.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card04.png",
+      "requireConnection": true,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Siguiente actividad"
+      },
+      "doneAction": {
+        "startNext": "gettingstarted2",
+        "startTitle": "Motores y sensores"
+      }
+    },
+    {
+      "id": "step8",
+      "allowClickThrough": true
+    }
+  ]
+}

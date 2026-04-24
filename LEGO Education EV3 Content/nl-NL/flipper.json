@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Begin hier",
+    "description": "Maak kennis met EV3 aan de hand van drie leuke activiteiten!",
+    "link": {
+      "path": "/content/start/",
+      "title": "Start"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Lesplannen",
+        "description": "Alle EV3 Classroom lessen zijn in themamodules ingedeeld om de actieve betrokkenheid van middelbare schoolleerlingen bij STEM-lessen te bevorderen.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Modellen in de basisset",
+        "description": "Deze modellen inspireren je en stellen je roboticavaardigheden op de proef. Til LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education EV3 naar een nog hoger niveau!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

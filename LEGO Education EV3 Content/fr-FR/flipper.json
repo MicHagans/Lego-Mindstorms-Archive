@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Prise en main",
+    "description": "Familiarisez-vous avec la technologie EV3 grâce à trois activités amusantes !",
+    "link": {
+      "path": "/content/start/",
+      "title": "Démarrer"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Plans de cours",
+        "description": "Toutes les leçons Salle de classe EV3 sont regroupées en cours thématiques, afin d’engager de façon active les élèves de collège dans l’apprentissage STIM.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Modèles de l’ensemble de base",
+        "description": "Ces modèles vous inspireront et renforceront vos compétences en robotique. Allez plus loin avec LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education EV3 !",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

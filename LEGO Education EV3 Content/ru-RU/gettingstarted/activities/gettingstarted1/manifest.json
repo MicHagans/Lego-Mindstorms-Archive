@@ -1,0 +1,130 @@
+{
+  "id": "gettingstarted1",
+  "title": "Hello World",
+  "duration": 15,
+  "level": "Beginner",
+  "isGettingStarted": true,
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "ev3display_displayImage",
+    "ev3sound_playSoundUntilDone"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "Это Модуль EV3",
+      "description": "<p>Вам предстоит создать для него небольшую программу. Готовы?</p>",
+      "image": "/images/activities/gettingstarted/gs1/card01.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Следующий шаг"
+      }
+    },
+    {
+      "id": "step2",
+      "title": "Подготовьте Модуль EV3.",
+      "description": "<p>Снимите заднюю крышку и вставьте Перезаряжаемую батарею EV3. Не потеряйте крышку, она понадобится вам, если по той или иной причине вы в будущем решите использовать в качестве источника питания батарейки типа АА.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card02.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Следующий шаг"
+      }
+    },
+    {
+      "id": "step3",
+      "title": "Включите Модуль EV3.",
+      "description": "Нажмите центральную кнопку для включения питания на вашем Модуле EV3.",
+      "image": "/images/activities/gettingstarted/gs1/card03.png",
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Следующий шаг"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step4",
+      "hideCard": true,
+      "hideToolbox": true,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "hub",
+        "description": "Подключите ваш Микрокомпьютер EV3\nк компьютеру или планшету"
+      },
+      "nextTrigger": {
+        "id": "connection"
+      }
+    },
+    {
+      "id": "step5",
+      "overlayInstruction": "Создайте вашу первую программу",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "nextTrigger": {
+        "id": "program",
+        "program": [
+          ["ev3events_whenProgramStarts", "ev3display_displayImage", "ev3sound_playSoundUntilDone"]
+        ]
+      },
+      "ghostBlocks": [
+        {
+          "type": "hat",
+          "blockid": "ev3events_whenProgramStarts"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3display_displayImage"
+        },
+        {
+          "type": "command",
+          "blockid": "ev3sound_playSoundUntilDone"
+        }
+      ]
+    },
+    {
+      "id": "step6",
+      "hideCard": true,
+      "requireConnection": true,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "play",
+        "description": "Загрузите и запустите программу"
+      },
+      "nextTrigger": {
+        "id": "play"
+      }
+    },
+    {
+      "id": "step7",
+      "title": "Hello world!",
+      "description": "<p>Что дальше?<br><br>Изучите материалы следующего задания.</p>",
+      "image": "/images/activities/gettingstarted/gs1/card04.png",
+      "requireConnection": true,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Следующее задание"
+      },
+      "doneAction": {
+        "startNext": "gettingstarted2",
+        "startTitle": "Моторы и датчики"
+      }
+    },
+    {
+      "id": "step8",
+      "allowClickThrough": true
+    }
+  ]
+}

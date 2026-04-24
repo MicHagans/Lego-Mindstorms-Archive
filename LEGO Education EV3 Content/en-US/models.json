@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Subtitle with additional information around this length",
+      "id": "core-models-edu",
+      "title": "Core Set Models",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>This robot with an attitude not only reacts to colors and objects, but it also balances itself while moving around!</p>",
+          "id": "model-1",
+          "title": "Gyro Boy",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>Scan and load colored objects and let the Color Sorter place them in the right area!</p>",
+          "id": "model-2",
+          "title": "Color Sorter",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Interact with this charming robot. Pet it, feed it, and experience its reactions!</p>",
+          "id": "model-3",
+          "title": "Puppy",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>Pick up objects from specific locations and deliver them to other places!</p>",
+          "id": "model-4",
+          "title": "Robot Arm H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

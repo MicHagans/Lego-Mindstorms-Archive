@@ -1,0 +1,46 @@
+[
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Hej verden",
+        "description": "Oprettelse af dit første program",
+        "image": "/images/gettingstarted1-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted1"
+      },
+      {
+        "title": "Motorer og sensorer",
+        "description": "Styring af indgange og udgange",
+        "image": "/images/gettingstarted2-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted2"
+      },
+      {
+        "title": "Kom i bevægelse",
+        "description": "Bygning af et chassis",
+        "image": "/images/gettingstarted3-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted3"
+      }
+    ]
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Lærer-forberedelse",
+        "description": "Forbered EV3-basissættene, før du starter den første lektion.",
+        "image": "/images/teacher-preparation.png",
+        "background": "#fff",
+        "link": "/modal/teacher-preparation"
+      }
+    ]
+  }
+]

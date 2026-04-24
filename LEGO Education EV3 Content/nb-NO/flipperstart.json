@@ -1,0 +1,46 @@
+[
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Hallo verden",
+        "description": "Lag ditt første program",
+        "image": "/images/gettingstarted1-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted1"
+      },
+      {
+        "title": "Motorer og sensorer",
+        "description": "Kontroller innganger og utganger",
+        "image": "/images/gettingstarted2-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted2"
+      },
+      {
+        "title": "Sett i gang",
+        "description": "Bygg en kjørebase",
+        "image": "/images/gettingstarted3-thumbnail.png",
+        "background": "#fff",
+        "showIndex": true,
+        "unit": "gettingstarted",
+        "activity": "gettingstarted3"
+      }
+    ]
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Lærerforberedelser",
+        "description": "Klargjør EV3-grunnsettet før du begynner første time.",
+        "image": "/images/teacher-preparation.png",
+        "background": "#fff",
+        "link": "/modal/teacher-preparation"
+      }
+    ]
+  }
+]

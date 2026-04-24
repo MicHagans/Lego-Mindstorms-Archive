@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Comienza aquí",
+    "description": "¡Familiarízate con EV3 haciendo tres divertidas actividades!",
+    "link": {
+      "path": "/content/start/",
+      "title": "Inicio"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Unidades",
+        "description": "Todas las sesiones de EV3 están agrupadas por temas para hacer que los estudiantes participen de manera activa en el aprendizaje STEM.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Modelos del set base",
+        "description": "Estos modelos te inspirarán y pondrán a prueba tus conocimientos de robótica. ¡Lleva el set LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education EV3 al siguiente nivel!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

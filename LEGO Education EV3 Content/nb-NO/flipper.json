@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Start her",
+    "description": "Bli kjent med EV3 gjennom tre morsomme aktiviteter!",
+    "link": {
+      "path": "/content/start/",
+      "title": "Start"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Emner",
+        "description": "Alle EV3 Classroom-leksjonene er gruppert i temaer for aktivt å engasjere ungdomsskoleelever i STEAM-læring.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Grunnsettmodeller",
+        "description": "Disse modellene er inspirerende og utfordrer robotikkferdighetene dine. Ta LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education EV3 til neste nivå!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

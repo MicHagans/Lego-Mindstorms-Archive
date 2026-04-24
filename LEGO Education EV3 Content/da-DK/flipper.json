@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Start her",
+    "description": "Bliv fortrolig med EV3 i tre sjove aktiviteter!",
+    "link": {
+      "path": "/content/start/",
+      "title": "Start"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Enhedsplaner",
+        "description": "Alle EV3 Classroom-lektioner er grupperet i enheder med hver sit tema for aktivt at engagere elever på mellemtrinnet og i udskolingen i naturvidenskabelig undervisning.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Modeller i basissæt",
+        "description": "Disse modeller vil inspirere dig og udfordre dine færdigheder i robotbygning. Tag LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> EV3 til næste niveau!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

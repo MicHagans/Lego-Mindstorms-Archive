@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Hier beginnen",
+    "description": "Hier sind drei spannende Übungen, um sich mit EV3 vertraut zu machen.",
+    "link": {
+      "path": "/content/start/",
+      "title": "Start"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Lerneinheiten",
+        "description": "Die Aufgaben in EV3 Classroom sind thematisch in übergeordnete Lerneinheiten zusammengefasst. Beim Bearbeiten der Lerneinheiten können sich Schüler der weiterführenden Schulen aktiv mit den jeweiligen MINT-Themen beschäftigen.",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Modelle des EV3 Sets",
+        "description": "Diese Modelle dienen nicht nur als Inspiration – sie fordern auch die Konstruktions- und Programmierfähigkeiten heraus. So lassen sich mit LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education EV3 vollkommen neue Kreationen erschaffen und Ideen umsetzen!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

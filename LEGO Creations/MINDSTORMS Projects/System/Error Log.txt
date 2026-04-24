@@ -1,0 +1,84 @@
+Error Entry:
+Date: 10/14/2024   8:14:04 PM
+Error Code: 1149
+Location: Invoke Node
+VI Name: subDVShutdown.vi
+Call Chain: subDVShutdown.vi, DataViewer.vi
+
+Error Entry:
+Date: 10/23/2024   4:01:19 PM
+Error Code: 1149
+Location: Invoke Node
+VI Name: subDVShutdown.vi
+Call Chain: subDVShutdown.vi, DataViewer.vi
+
+Error Entry:
+Date: 10/23/2024   4:01:42 PM
+Error Code: 1162
+Location: Set Menu Item Info
+VI Name: UpdateMenuItems.vi
+Call Chain: UpdateMenuItems.vi, EnableDisableToolbarButtons.vi, MerlotEditor.vi
+
+Error Entry:
+Date: 10/26/2024   10:28:54 PM
+Error Code: 1162
+Location: Set Menu Item Info
+VI Name: UpdateMenuItems.vi
+Call Chain: UpdateMenuItems.vi, EnableDisableToolbarButtons.vi, MerlotEditor.vi
+
+Error Entry:
+Date: 10/28/2024   9:11:16 PM
+Error Code: 1055
+Location: Close Reference
+VI Name: NXT.TargetAgent.vi
+Call Chain: NXT.TargetAgent.vi
+
+Error Entry:
+Date: 10/28/2024   11:22:15 PM
+Error Code: 1162
+Location: Set Menu Item Info
+VI Name: UpdateMenuItems.vi
+Call Chain: UpdateMenuItems.vi, EnableDisableToolbarButtons.vi, MerlotEditor.vi
+
+Error Entry:
+Date: 10/29/2024   11:30:44 PM
+Error Code: 1055
+Location: Close Reference
+VI Name: NXT.TargetAgent.vi
+Call Chain: NXT.TargetAgent.vi
+
+Error Entry:
+Date: 10/29/2024   11:36:03 PM
+Error Code: 1055
+Location: Close Reference
+VI Name: NXT.TargetAgent.vi
+Call Chain: NXT.TargetAgent.vi
+
+Error Entry:
+Date: 10/29/2024   11:37:50 PM
+Error Code: 1162
+Location: Set Menu Item Info
+VI Name: UpdateMenuItems.vi
+Call Chain: UpdateMenuItems.vi, EnableDisableToolbarButtons.vi, MerlotEditor.vi
+
+Error Entry:
+Date: 11/25/2024   5:04:10 PM
+Error Code: 1149
+Location: Invoke Node
+VI Name: subDVShutdown.vi
+Call Chain: subDVShutdown.vi, DataViewer.vi
+
+Error Entry:
+Date: 11/25/2024   5:04:14 PM
+Error Code: 1162
+Location: Set Menu Item Info
+VI Name: UpdateMenuItems.vi
+Call Chain: UpdateMenuItems.vi, EnableDisableToolbarButtons.vi, MerlotEditor.vi
+
+Error Entry:
+Date: 10/22/2025   6:46:30 PM
+Error Code: 1162
+Location: Set Menu Item Info
+VI Name: UpdateMenuItems.vi
+Call Chain: UpdateMenuItems.vi, EnableDisableToolbarButtons.vi, MerlotEditor.vi
+

@@ -1,0 +1,38 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.08|$
+
+[PLUGINS]
+C:\Program Files\Microsoft Office\root\VFS\ProgramFilesX86\Microsoft Office\Office16\NPSPWRAP.DLL|$
+|$
+1757269663885|1|1|$
+The plugin allows you to have a better experience with Microsoft SharePoint|$
+Microsoft Office|$
+2
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+1|application/x-sharepoint-uc|||$
+c:\Program Files (x86)\Microsoft Silverlight\5.1.41212.0\npctrl.dll|$
+|$
+1449900748000|1|5|$
+5.1.41212.0|$
+Silverlight Plug-In|$
+2
+0|application/x-silverlight|npctrl|scr|$
+1|application/x-silverlight-2|||$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32.dll|$
+|$
+1728961924310|1|5|$
+Shockwave Flash 11.1 r102|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+C:\Program Files (x86)\LEGO Software\LEGO MINDSTORMS Edu NXT\plugins\NPSWF32.dll|$
+|$
+1258755622000|1|5|$
+Shockwave Flash 10.0 r12|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$

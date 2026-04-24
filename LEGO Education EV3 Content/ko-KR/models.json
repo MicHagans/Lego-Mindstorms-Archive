@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "대략 이 길이의 추가 정보가 포함된 자막",
+      "id": "core-models-edu",
+      "title": "코어 세트 모델",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>차분하기 그지없는 이 로봇은 색상과 물체에 반응할 뿐 아니라 이동 중에 균형을 유지할 줄도 안답니다!</p>",
+          "id": "model-1",
+          "title": "자이로 보이",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>색깔 있는 물체를 스캔하고 넣어주기만 하세요. 색상 분류기가 올바른 자리를 찾아 척척 분류해줄 테니까요!</p>",
+          "id": "model-2",
+          "title": "색상 분류기",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>매력적인 로봇과의 교감! 쓰다듬고, 먹이를 주고, 반응을 살펴보세요!</p>",
+          "id": "model-3",
+          "title": "퍼피",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>특정 위치의 물체를 집어들어 다른 곳으로 옮겨보세요!</p>",
+          "id": "model-4",
+          "title": "로봇 팔 H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

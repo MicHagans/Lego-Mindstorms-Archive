@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Legenda com informações adicionais aproximadamente desse comprimento",
+      "id": "core-models-edu",
+      "title": "Modelos do Conjunto Principal",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>Esse robô com atitude não só reage a cores e objetos, mas também se equilibra enquanto se move!</p>",
+          "id": "model-1",
+          "title": "Robô Giro",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>Examine e carregue objetos coloridos e deixe que o Selecionador de Cores os coloque na área certa!</p>",
+          "id": "model-2",
+          "title": "Selecionador de Cores",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Interaja com esse robô encantador. Acaricie, alimente-o e experimente suas reações!</p>",
+          "id": "model-3",
+          "title": "Filhote",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>Pegue objetos de localizações específicas e entregue-os em outros lugares!</p>",
+          "id": "model-4",
+          "title": "Braço do Robô H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

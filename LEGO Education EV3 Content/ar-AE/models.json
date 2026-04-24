@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "عنوان فرعي يشتمل على معلومات إضافية حول هذا الطول",
+      "id": "core-models-edu",
+      "title": "نماذج المجموعة الأساسية",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>لا يتفاعل هذا الروبوت مع الألوان والأشياء فقط، ولكن أيضا يوازن نفسه أثناء التجول!</p>",
+          "id": "model-1",
+          "title": "فتى الاتزان",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>امسح الأجسام الملوَّنة وقم بتحميلها، ثم اجعل وحدة فرز الألوان تضعها في المنطقة الصحيحة.</p>",
+          "id": "model-2",
+          "title": "وحدة فرز الألوان",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>تفاعل مع هذا الروبوت الرائع. اعتن به، وأطعمه وراقب ردود أفعاله.</p>",
+          "id": "model-3",
+          "title": "الجرو",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>التقط الأجسام من أماكن محددة وانقلها إلى أماكن أخرى!</p>",
+          "id": "model-4",
+          "title": "ذراع الروبوت H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

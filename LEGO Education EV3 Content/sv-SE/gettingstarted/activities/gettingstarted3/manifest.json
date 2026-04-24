@@ -1,0 +1,100 @@
+{
+  "id": "gettingstarted3",
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "control_wait",
+    "ev3move_move"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "Nu kör vi!",
+      "description": "<p>Du ska bygga en körningsbas och få den att röra sig. Vi sätter igång direkt!</p>",
+      "image": "/images/activities/gettingstarted/gs3/card01.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step2",
+      "title": "Bygg körningsbasen.",
+      "description": "<p>Den använder två stora motorer för att röra sig. Bygg den!</p>",
+      "image": "/images/activities/gettingstarted/gs3/card02.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "buildinginstruction": {
+        "title": "Komma igång 3",
+        "image": "",
+        "isActivityBuildingInstruction": true,
+        "buildingInstructions": [
+          {
+            "title": "Körningsbas",
+            "image": "",
+            "videos": {
+              "urls": {
+                "video_medium_download": "/buildinginstructions/gettingstarted3/RE-01-DrivingBase_46",
+                "video_hd_download": "/buildinginstructions/gettingstarted3/RE-01-DrivingBase_46"
+              },
+              "baseUrl": "",
+              "id": "",
+              "token": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "step3",
+      "title": "Testa!",
+      "description": "<p>Ladda ner och kör det här programmet.<br><br>Vad händer?</p>",
+      "image": "/images/activities/gettingstarted/gs3/card03.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "code": {
+        "add": true,
+        "alwaysAdd": true,
+        "clear": true,
+        "show": false,
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"ev3events_whenProgramStarts\" id=\"_Oz9U7pxTt4yVh3p_Gdb\" x=\"0\" y=\"0\"><next><block type=\"ev3move_move\" id=\"3L/^gACxJjV+3aV8WKG3\"><field name=\"DIRECTION\">forward</field><field name=\"UNIT\">rotations</field><value name=\"VALUE\"><shadow type=\"math_number\" id=\"/W5oS^UssHY3bxN:eCcq\"><field name=\"NUM\">2</field></shadow></value><next><block type=\"control_wait\" id=\"Dg]4d.[7B}0-H,~0Des/\"><value name=\"DURATION\"><shadow type=\"math_positive_number\" id=\"jjdW7Q2g~Ob$bOV8}(~b\"><field name=\"NUM\">1</field></shadow></value><next><block type=\"ev3move_move\" id=\"h8]LK!WD6^(niZmF-GO^\"><field name=\"DIRECTION\">back</field><field name=\"UNIT\">degrees</field><value name=\"VALUE\"><shadow type=\"math_number\" id=\"|QOm~(]:rm]IuO3fKs%{\"><field name=\"NUM\">720</field></shadow></value><next><block type=\"control_wait\" id=\"nFZX?D;Tb;LziXkXMyT#\"><value name=\"DURATION\"><shadow type=\"math_positive_number\" id=\"(BDKF,yG*uEPir_juT.8\"><field name=\"NUM\">1</field></shadow></value><next><block type=\"ev3move_move\" id=\"QV}=w1r~j0ecs}lbNV%S\"><field name=\"DIRECTION\">forward</field><field name=\"UNIT\">seconds</field><value name=\"VALUE\"><shadow type=\"math_number\" id=\"Y|hvd*|Ld~G,#{BR#S~_\"><field name=\"NUM\">1</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></xml>"
+      }
+    },
+    {
+      "id": "step4",
+      "title": "Din tur!",
+      "description": "<p>Ändra värdena hos de olika blockens parametrar och se vad som händer.</p>",
+      "image": "/images/activities/gettingstarted/gs3/card04.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step5",
+      "title": "Grattis!",
+      "description": "<p>Du är klar att fortsätta med andra projekt!<br><br>Titta i enhetsplaneringarna för att se vad du ska göra härnäst.</p>",
+      "hideToolbox": false,
+      "image": "/images/activities/gettingstarted/gs3/card05.png",
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Gå till enhetsplaneringarna"
+      },
+      "doneAction": {
+        "goToUnits": true
+      }
+    },
+    {
+      "id": "step6",
+      "allowClickThrough": true
+    }
+  ],
+  "description": "",
+  "duration": 45,
+  "image": "",
+  "level": "Beginner",
+  "subtitle": "",
+  "title": "Nu kör vi",
+  "isGettingStarted": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Underrubrik med ytterligare information av ungefär samma längd",
+      "id": "core-models-edu",
+      "title": "Startset modeller",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>Den här roboten har attityd och reagerar inte bara på färger och föremål, utan håller också balansen när den förflyttar sig!</p>",
+          "id": "model-1",
+          "title": "Gyro Boy",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>Sök efter och lasta färgade föremål och låt färgsorteraren placera dem på rätt plats.</p>",
+          "id": "model-2",
+          "title": "Färgsorterare",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Interagera med denna charmiga robot. Klappa den, mata den och se hur den reagerar.</p>",
+          "id": "model-3",
+          "title": "Hundvalp",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>Plocka upp föremål från bestämda platser och leverera dem till andra ställen.</p>",
+          "id": "model-4",
+          "title": "Robotarm H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

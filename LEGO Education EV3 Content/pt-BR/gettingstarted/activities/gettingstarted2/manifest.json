@@ -1,0 +1,131 @@
+{
+  "id": "gettingstarted2",
+  "title": "Motores e Sensores",
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "ev3events_whenEV3ColorSensorColor",
+    "ev3events_whenEV3TouchSensorPressed",
+    "ev3motor_motorTurnFor"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "Vamos experimentar algumas entradas e saídas!",
+      "description": "<p>Você vai controlar um Motor Grande, um Sensor de Toque, e um Sensor de Cor.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card01.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Próxima etapa"
+      },
+      "code": {
+        "add": true,
+        "alwaysAdd": true,
+        "clear": true,
+        "show": false,
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"ev3events_whenProgramStarts\" id=\"lzS7u9d_Wvota4HQaWTZ\" x=\"0\" y=\"0\"><next><block type=\"ev3motor_motorTurnFor\" id=\"^S{a}@j2Nz@4^pnqBZJ4\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"$ovK+]7}:Bo-vVLf.UPT\"><field name=\"outputPort\">4</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"lEu|s7zXj;**8rAn4$l[\"><field name=\"NUM\">1</field></shadow></value></block></next></block></xml>"
+      }
+    },
+    {
+      "id": "step2",
+      "title": "Conecte um Motor Grande à Porta D.",
+      "description": "<p>Baixe e execute esse programa.<br><br>O que acontece?</p>",
+      "image": "/images/activities/gettingstarted/gs2/card02.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Próxima etapa"
+      }
+    },
+    {
+      "id": "step3",
+      "title": "Ele girou?",
+      "description": "<p>Confirme que o seu motor tenha realizado um giro antes de parar.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card03.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step4",
+      "title": "Conecte um Sensor de Toque à Porta 1.",
+      "description": "<p>Baixe e execute esse programa.<br><br>O que acontece quando você pressiona o Sensor de Toque?</p>",
+      "image": "/images/activities/gettingstarted/gs2/card04.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "code": {
+        "add": true,
+        "alwaysAdd": true,
+        "clear": true,
+        "show": false,
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"ev3events_whenEV3TouchSensorPressed\" id=\"Fc|U2mvI1}T]wF/Xyepv\" x=\"0\" y=\"0\"><field name=\"EVENT\">1</field><value name=\"PORT\"><shadow type=\"ev3events_menu_inputPort\" id=\"Btlo{=e9AO.xbpQec%)K\"><field name=\"inputPort\">1</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"p^bTJujj`8J^)BZ+LO?i\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"Vr/L4jjv$cEXyOL*W`ji\"><field name=\"outputPort\">4</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"6_6q[TnJ_Ii?ieE!poC5\"><field name=\"NUM\">1</field></shadow></value></block></next></block></xml>"
+      }
+    },
+    {
+      "id": "step5",
+      "title": "Ele detectou o pressionamento?",
+      "description": "<p>Verifique que o Motor Grande tenha realizado uma rotação após você ter pressionado o Sensor de Toque.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card05.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step6",
+      "title": "Conecte um Sensor de Cor à Porta 4.",
+      "description": "<p>Baixe e execute esse programa.<br><br>O que acontece quando você coloca um bloco verde em frente ao Sensor de Cor?</p>",
+      "image": "/images/activities/gettingstarted/gs2/card06.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "code": {
+        "add": true,
+        "alwaysAdd": true,
+        "clear": true,
+        "show": false,
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"ev3events_whenEV3ColorSensorColor\" id=\"_s%8%-^}xUWtIwv9%F`x\" x=\"0\" y=\"0\"><value name=\"PORT\"><shadow type=\"ev3events_menu_inputPort\" id=\"-g[bbBD2nDwiBvT9l^2I\"><field name=\"inputPort\">4</field></shadow></value><value name=\"EVENT\"><shadow type=\"ev3events_menu_colorEvent\" id=\"vN6mQw{(u(tX2eEL4EF$\"><field name=\"colorEvent\">3</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"p^bTJujj`8J^)BZ+LO?i\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"Vr/L4jjv$cEXyOL*W`ji\"><field name=\"outputPort\">4</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"6_6q[TnJ_Ii?ieE!poC5\"><field name=\"NUM\">1</field></shadow></value></block></next></block></xml>"
+      }
+    },
+    {
+      "id": "step7",
+      "title": "Ele detectou o bloco verde?",
+      "description": "<p>Confirme que o Motor Grande executou uma rotação após o Sensor de Cor ter detectado o bloco verde.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card07.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step8",
+      "image": "/images/activities/gettingstarted/gs2/card08.png",
+      "title": "Você está no comando!",
+      "description": "<p>O que vem a seguir?<br><br>Dê uma olhada na próxima atividade.</p>",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "Próxima atividade"
+      },
+      "doneAction": {
+        "startNext": "gettingstarted3",
+        "startTitle": "Mova-se"
+      }
+    },
+    {
+      "id": "step9",
+      "allowClickThrough": true
+    }
+  ],
+  "description": "",
+  "duration": 30,
+  "image": "",
+  "level": "Beginner",
+  "subtitle": "",
+  "isGettingStarted": true
+}

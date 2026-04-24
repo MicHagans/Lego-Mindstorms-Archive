@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Subtítulo con información adicional, aproximadamente de esta longitud",
+      "id": "core-models-edu",
+      "title": "Modelos del set base",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>Este robot con gran personalidad no solo reacciona a los colores y objetos, ¡también se equilibra mientras se desplaza!</p>",
+          "id": "model-1",
+          "title": "Gyro Boy",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>¡Escanea y carga objetos de color y permite que el Clasificador de colores los coloque en la zona adecuada!</p>",
+          "id": "model-2",
+          "title": "Clasificador de colores",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Interactúa con esta robot encantadora. ¡Acaríciala, aliméntala y experimenta sus reacciones!</p>",
+          "id": "model-3",
+          "title": "Cachorrita",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>¡Recoge objetos de lugares específicos y déjalos en otros sitios!</p>",
+          "id": "model-4",
+          "title": "Brazo robótico H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

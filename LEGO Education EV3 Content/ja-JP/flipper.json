@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "ここからスタート",
+    "description": "3つの楽しいアクティビティを通してEV3に慣れましょう！",
+    "link": {
+      "path": "/content/start/",
+      "title": "開始"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "ユニットプラン",
+        "description": "EV3 Classroomは、中学生、高校生がSTEM学習を実践的に学べるテーマ別の複数のユニットに分かれたレッスンプランを収録しています。",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "基本セットモデル",
+        "description": "これらは、ロボティクスのスキルを試すことができるモデルです。教育版 レゴ<sup><sub>®</sub></sup> マインドストーム<sup><sub>®</sub></sup> EV3 で、STEM学習を次のレベルに発展させましょう！",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

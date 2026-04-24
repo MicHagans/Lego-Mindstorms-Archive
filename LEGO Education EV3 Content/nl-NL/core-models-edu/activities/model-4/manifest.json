@@ -1,0 +1,146 @@
+{
+  "id": "model-4",
+  "image": "TODO",
+  "isGettingStarted": false,
+  "toolbox": [
+    "ev3motor_motorTurnFor",
+    "ev3motor_motorStart",
+    "ev3motor_motorStop",
+    "ev3motor_motorSetSpeed",
+    "ev3motor_motorTurnForSpeed",
+    "ev3motor_motorStartSpeed",
+    "ev3motor_motorStartPower",
+    "ev3motor_motorSetStopAction",
+    "ev3motor_motorReset",
+    "ev3motor_position",
+    "ev3motor_speed",
+    "ev3move_move",
+    "ev3move_steer",
+    "ev3move_startSteer",
+    "ev3move_stopMove",
+    "ev3move_movementSpeed",
+    "ev3move_setMovementPair",
+    "ev3move_steerDistanceAtSpeed",
+    "ev3move_moveDistanceAtSpeed",
+    "ev3move_startDualSpeed",
+    "ev3move_startSteerAtSpeed",
+    "ev3move_moveSetStopAction",
+    "control_wait",
+    "control_wait_until",
+    "control_repeat",
+    "control_forever",
+    "control_repeat_until",
+    "control_if",
+    "control_if_else",
+    "ev3control_stopOtherStacks",
+    "ev3control_stop",
+    "ev3events_whenProgramStarts",
+    "ev3events_whenEV3ColorSensorColor",
+    "ev3events_whenEV3TouchSensorPressed",
+    "ev3events_whenEV3UltrasonicSensorDistance",
+    "ev3events_whenEV3GyroSensorAngle",
+    "ev3events_whenEV3BrickButtonPressed",
+    "ev3events_whenCondition",
+    "event_whenbroadcastreceived",
+    "event_broadcast",
+    "event_broadcastandwait",
+    "ev3events_whenTimer",
+    "ev3display_displayImageForTime",
+    "ev3display_displayImage",
+    "ev3display_displayText",
+    "ev3display_displayTextWithFont",
+    "ev3display_displayClear",
+    "ev3display_setStatusLight",
+    "ev3sound_playSoundUntilDone",
+    "ev3sound_playSound",
+    "ev3sound_beepForTime",
+    "ev3sound_beep",
+    "ev3sound_stopSound",
+    "ev3sound_setVolumeTo",
+    "ev3sensors_waitEV3ColorSensorColor",
+    "ev3sensors_isEV3ColorSensorColor",
+    "ev3sensors_getEV3ColorSensorColor",
+    "ev3sensors_isEV3ColorSensorReflected",
+    "ev3sensors_getEV3ColorSensorReflected",
+    "ev3sensors_calibrateEV3ColorSensorReflected",
+    "ev3sensors_resetEV3ColorSensorReflected",
+    "ev3sensors_isEV3ColorSensorAmbient",
+    "ev3sensors_getEV3ColorSensorAmbient",
+    "ev3sensors_waitEV3TouchSensorTouch",
+    "ev3sensors_isEV3TouchSensorPressed",
+    "ev3sensors_waitEV3UltrasonicSensorDistance",
+    "ev3sensors_isEV3UltrasonicSensorDistance",
+    "ev3sensors_getEV3UltrasonicSensorDistance",
+    "ev3sensors_waitEV3GyroSensorAngle",
+    "ev3sensors_isEV3GyroAngle",
+    "ev3sensors_getEV3GyroSensorAngle",
+    "ev3sensors_resetEV3GyroSensorAngle",
+    "ev3sensors_getEV3GyroSensorRate",
+    "ev3sensors_waitEV3BrickButton",
+    "ev3sensors_isEV3BrickButtonPressed",
+    "ev3sensors_getEV3BrickButton",
+    "sensing_timer",
+    "sensing_resettimer",
+    "operator_random",
+    "operator_add",
+    "operator_subtract",
+    "operator_multiply",
+    "operator_divide",
+    "operator_lt",
+    "operator_equals",
+    "operator_gt",
+    "operator_and",
+    "operator_or",
+    "operator_not",
+    "operator_join",
+    "operator_length",
+    "operator_mod",
+    "operator_round",
+    "operator_mathop",
+    "variables",
+    "myblocks"
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Dit is de <em>robotarm H25</em>.",
+      "description": "<p>Deze maakt gebruik van de kleursensor en de tastsensor om zijn bewegingen te regelen.</p>",
+      "image": "images/core-models/steps/engage-4-4.png",
+      "allowClickThrough": true
+    },
+    {
+      "id": "step-2",
+      "title": "Bouw de <em>robotarm H25</em>.",
+      "image": "images/core-models/steps/build-4-4.png",
+      "buildinginstruction": {
+        "isActivityBuildingInstruction": true,
+        "buildingInstructions": [
+          {
+            "steps": 108,
+            "videos": {
+              "urls": {
+                "video_hd_download": "buildinginstructions/model-4/MCR-BI-4-4-RobotArmH25_108"
+              }
+            }
+          }
+        ]
+      },
+      "allowClickThrough": true
+    },
+    {
+      "id": "step-3",
+      "title": "Download dit programma en voer het uit.",
+      "description": "<p>De <em>robotarm H25</em> moet de handelingen uitvoeren die je in de video te ziet.</p>",
+      "video": {
+        "urls": {
+          "video_medium_download": "videos/core-models/MCR-LV-4-4-RobotArmH25"
+        }
+      },
+      "code": {
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"Y7t.bkAC|C7!bwBKogZL\" islocal=\"true\" iscloud=\"false\">direction</variable></variables><block type=\"ev3events_whenProgramStarts\" id=\"xqyJVFgLx3HdM5J_m8wb\" x=\"-130\" y=\"120\"><next><block type=\"procedures_call\" id=\"7dIq~Wn`(;J-owz`9KK@\"><mutation proccode=\"initalize\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"control_forever\" id=\"BdB.NzuHkt+u?n,Di=0/\"><statement name=\"SUBSTACK\"><block type=\"ev3display_displayImage\" id=\"+!q{Q%iC0g1ymDr,h?0D\"><field name=\"IMAGE\">Question mark</field><next><block type=\"ev3display_setStatusLight\" id=\"U}2f-r}Bnp9MP-,7^8|G\"><field name=\"OPTION\">6</field><next><block type=\"data_setvariableto\" id=\"-L0Rwd8T}C3_Bw/ayN}2\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field><value name=\"VALUE\"><shadow type=\"text\" id=\"xR):lO@:?BXN6_?Pq]gc\"><field name=\"TEXT\">none</field></shadow></value><next><block type=\"control_repeat_until\" id=\"lsd*Y14R!ofqfL7c]6[`\"><value name=\"CONDITION\"><block type=\"operator_not\" id=\")d3x=wi%W3t`C(Sjho2:\"><value name=\"OPERAND\"><block type=\"operator_equals\" id=\"#,{j0D[V)oX)~V}j/4my\"><value name=\"OPERAND1\"><shadow id=\"1WeEI/o?Ex)+yTW:|V~q\" type=\"text\"><field name=\"TEXT\"></field></shadow><block type=\"data_variable\" id=\"FO}3LE|^W^hjrRiDPLp/\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field></block></value><value name=\"OPERAND2\"><shadow type=\"text\" id=\"Fs`auhA!;k]I]ZJjaN3R\"><field name=\"TEXT\">none</field></shadow></value></block></value></block></value><statement name=\"SUBSTACK\"><block type=\"control_if\" id=\".|6}):iJ-1;pY@(M1QvO\"><value name=\"CONDITION\"><block type=\"ev3sensors_isEV3BrickButtonPressed\" id=\"_zLkg6N9]?#ok;fIe~Pv\"><value name=\"BUTTON\"><shadow type=\"ev3sensors_menu_button\" id=\"k:Gdl,%53*zWzDYu8]K6\"><field name=\"button\">4</field></shadow></value></block></value><statement name=\"SUBSTACK\"><block type=\"data_setvariableto\" id=\"1V|9r6c04O2)r6*NA3Z!\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field><value name=\"VALUE\"><shadow type=\"text\" id=\"GYNdU-OFu`4(w]rJS/Lc\"><field name=\"TEXT\">clockwise</field></shadow></value></block></statement><next><block type=\"control_if\" id=\"VLJkg--F#E^F=}/Z_%x(\"><value name=\"CONDITION\"><block type=\"ev3sensors_isEV3BrickButtonPressed\" id=\"7Pc`lB{!5g0*50U@g{)R\"><value name=\"BUTTON\"><shadow type=\"ev3sensors_menu_button\" id=\"e*:jh3:Yh$!.:(;2Dz|Z\"><field name=\"button\">5</field></shadow></value></block></value><statement name=\"SUBSTACK\"><block type=\"data_setvariableto\" id=\"Q.Bq{XL8_Vl6-:mf~/bC\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field><value name=\"VALUE\"><shadow type=\"text\" id=\"XYu1D{Zo)NsLq4sk@R2)\"><field name=\"TEXT\">counterclockwise</field></shadow></value></block></statement></block></next></block></statement><next><block type=\"ev3display_setStatusLight\" id=\"Yq%L*8+eD18eDgV{wi2A\"><field name=\"OPTION\">0</field><next><block type=\"ev3sound_playSoundUntilDone\" id=\"KU=TWA7M*TpVM[`M[|^I\"><field name=\"SOUND\">Air release</field><next><block type=\"ev3display_displayImage\" id=\"[/064KxzBPD)`UfKprnQ\"><field name=\"IMAGE\">Accept</field><next><block type=\"ev3sensors_waitEV3BrickButton\" id=\"0/mzlD3pd0=QE,nT/bPF\"><field name=\"EVENT\">1</field><value name=\"BUTTON\"><shadow type=\"ev3sensors_menu_button\" id=\"Wr)%kWIc-F)Xy{79+(Jl\"><field name=\"button\">2</field></shadow></value><next><block type=\"ev3motor_motorSetSpeed\" id=\"Oumm=he^,S04%JUD!jg:\"><comment id=\"g8~q|Zyw*nI^{M5F.$q1\" pinned=\"true\" h=\"200\" w=\"200\" x=\"540\" y=\"1028\" minimized=\"false\">Draai de arm met de klok mee of tegen de klok in.</comment><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"Dx;flz{}rp0T;CBiZ3zf\"><field name=\"outputPort\">3</field></shadow></value><value name=\"SPEED\"><shadow type=\"math_number\" id=\"GUf]2fP[oIv#n.qIaNK9\"><field name=\"NUM\">65</field></shadow></value><next><block type=\"control_if\" id=\"]gamZ.~eTt_M^j|=8^h}\"><value name=\"CONDITION\"><block type=\"operator_equals\" id=\"G$v]TQ`RAcfXk=kQxIwS\"><value name=\"OPERAND1\"><shadow id=\"EpZK]h0JVHvX21K]2:Vi\" type=\"text\"><field name=\"TEXT\"></field></shadow><block type=\"data_variable\" id=\"5TGI[Kb0HT}y,~ZRhH@U\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field></block></value><value name=\"OPERAND2\"><shadow type=\"text\" id=\"}Bja+6t@wG[p2:}(vBDc\"><field name=\"TEXT\">clockwise</field></shadow></value></block></value><statement name=\"SUBSTACK\"><block type=\"ev3display_displayImage\" id=\"l:0Oz2#/.Q]H.W*b=O9d\"><field name=\"IMAGE\">Forward</field><next><block type=\"ev3motor_motorTurnFor\" id=\";-xJYiQYt*dU*(?k]G{k\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"PE6X7T_Yq,U.Qak/AUcq\"><field name=\"outputPort\">3</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"Q;@mpS=ST#yB-/X+%-ta\"><field name=\"NUM\">0.865</field></shadow></value></block></next></block></statement><next><block type=\"control_if\" id=\"5(|+0CUkaw98M5UKC?Du\"><value name=\"CONDITION\"><block type=\"operator_equals\" id=\"ejrL~=~8G-kcpV+Yf6CT\"><value name=\"OPERAND1\"><shadow id=\"g[.x;pNQPGWyCjhh^TX?\" type=\"text\"><field name=\"TEXT\"></field></shadow><block type=\"data_variable\" id=\"}PVp9/Z#8ADXDxC`FH{c\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field></block></value><value name=\"OPERAND2\"><shadow type=\"text\" id=\"+F%M[i3+{sT#VJ+YGjRx\"><field name=\"TEXT\">counterclockwise</field></shadow></value></block></value><statement name=\"SUBSTACK\"><block type=\"ev3display_displayImage\" id=\"MN5bO%w=0LoENk*^@abc\"><field name=\"IMAGE\">Backward</field><next><block type=\"ev3motor_motorTurnFor\" id=\"d!t54yW==}l#)9.}k#{f\"><field name=\"DIRECTION\">counterclockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"?:jN:]Q7I_6{x02lwJ-p\"><field name=\"outputPort\">3</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"v?J!r(GY|tXv#u_o5H]!\"><field name=\"NUM\">0.85</field></shadow></value></block></next></block></statement><next><block type=\"procedures_call\" id=\"3cpOz8~N9HSg9dR^/22+\"><mutation proccode=\"lower arm\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"procedures_call\" id=\"0mhx`Avn:9}T{H`/ptB6\"><mutation proccode=\"close gripper\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"procedures_call\" id=\"_eF`fnymbXVZ[ykfvblz\"><mutation proccode=\"raise arm\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"control_if\" id=\"WY~]Xi`e9N}V#c.-~aUz\"><comment id=\"p;D#p.~^Ddq%~fOwbn2S\" pinned=\"true\" h=\"150\" w=\"200\" x=\"540\" y=\"1506\" minimized=\"false\">Draai de arm terug naar de middelste positie.</comment><value name=\"CONDITION\"><block type=\"operator_equals\" id=\".Sx_TpUz]WbOUh(s=TBB\"><value name=\"OPERAND1\"><shadow id=\"6(lUnKil7X;6OL=7(WVx\" type=\"text\"><field name=\"TEXT\"></field></shadow><block type=\"data_variable\" id=\"+UX[PW:h0u/BCNzfEj{+\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field></block></value><value name=\"OPERAND2\"><shadow type=\"text\" id=\"0hR}j:%)O{VSWV0pto,E\"><field name=\"TEXT\">clockwise</field></shadow></value></block></value><statement name=\"SUBSTACK\"><block type=\"ev3motor_motorTurnFor\" id=\"O4wj]Ip^wn@{HKYPtXEE\"><field name=\"DIRECTION\">counterclockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"SHE%|{gzkBqd)Z[^voi.\"><field name=\"outputPort\">3</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"dbI(ZtO7|z:dun,mg5aj\"><field name=\"NUM\">0.865</field></shadow></value></block></statement><next><block type=\"control_if\" id=\"Zye`UI$%=h[fpWvSOm)+\"><value name=\"CONDITION\"><block type=\"operator_equals\" id=\"%fzlT6?9Jna:cKoE@Q-l\"><value name=\"OPERAND1\"><shadow id=\"G6roT5_Ze`D|UAQntOEY\" type=\"text\"><field name=\"TEXT\"></field></shadow><block type=\"data_variable\" id=\"S*t]AWrxQhj(n8#kF(e0\"><field name=\"VARIABLE\" id=\"Y7t.bkAC|C7!bwBKogZL\" variabletype=\"\">direction</field></block></value><value name=\"OPERAND2\"><shadow type=\"text\" id=\";o0Ad4H(3h|`?;u*qL?Q\"><field name=\"TEXT\">counterclockwise</field></shadow></value></block></value><statement name=\"SUBSTACK\"><block type=\"ev3motor_motorTurnFor\" id=\"|_mSP`k*LIoK!Pfyp0L@\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"AgVfNOMXK:boq2!!HbE7\"><field name=\"outputPort\">3</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"#+IiT8=i^/BhIYU/lmyy\"><field name=\"NUM\">0.85</field></shadow></value></block></statement><next><block type=\"procedures_call\" id=\"gOcc/^S$;n#9Nt`7ibvY\"><mutation proccode=\"lower arm\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"procedures_call\" id=\"uUY!W8hWl|pFnujcb+OO\"><mutation proccode=\"open gripper\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"procedures_call\" id=\"3JhB?d+?EljaN24x#@io\"><mutation proccode=\"raise arm\" argumentids=\"[]\" warp=\"false\"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block><block type=\"procedures_definition\" id=\"}Mp-58ybVm;`a=T|-RwB\" x=\"770\" y=\"120\"><statement name=\"custom_block\"><shadow type=\"procedures_prototype\" id=\"GM2Cn}sarY(OB:4E*-vB\"><mutation proccode=\"initalize\" argumentids=\"[]\" argumentnames=\"[]\" argumentdefaults=\"[]\" warp=\"false\"></mutation></shadow></statement><next><block type=\"procedures_call\" id=\"Zo~WrV2Rig0IS5:xw=er\"><mutation proccode=\"raise arm\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"procedures_call\" id=\"Wy4_8,TL/KD,0te;DtIO\"><mutation proccode=\"close gripper\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"procedures_call\" id=\"Q{J]:sgN_t10|}P#rn?J\"><mutation proccode=\"open gripper\" argumentids=\"[]\" warp=\"false\"></mutation><next><block type=\"ev3motor_motorSetSpeed\" id=\"*Xgn3Q$[9`2pJ#EsYQz5\"><comment id=\"[qcO6kJ(3Tn|,7lhaID+\" pinned=\"true\" h=\"150\" w=\"200\" x=\"1530\" y=\"344\" minimized=\"false\">Draai de arm naar de startpositie.</comment><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"6jEf|`cbom3byF?FM4zE\"><field name=\"outputPort\">3</field></shadow></value><value name=\"SPEED\"><shadow type=\"math_number\" id=\"w8nq,@WQ1Dpoh)ig`YdP\"><field name=\"NUM\">50</field></shadow></value><next><block type=\"ev3motor_motorStart\" id=\"_Wz^+H!Gj~BBkS{~)`R`\"><field name=\"DIRECTION\">clockwise</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"1suB8Y+d4bwV|}pVAYY^\"><field name=\"outputPort\">3</field></shadow></value><next><block type=\"ev3sensors_waitEV3TouchSensorTouch\" id=\";_{D~D8P%@#6Po.J^T$B\"><field name=\"EVENT\">1</field><value name=\"PORT\"><shadow type=\"ev3sensors_menu_inputPort\" id=\"Q~AP{WYRn9TAcG=:8uh|\"><field name=\"inputPort\">1</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"Q%MjXbu@kgUKLB-m}Xpz\"><field name=\"DIRECTION\">counterclockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"v|[YLeacmHPa5rPU2ogh\"><field name=\"outputPort\">3</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"]oUPhAtyS_99o54zLH4s\"><field name=\"NUM\">0.86</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"procedures_definition\" id=\"JNWuBnHhEqcIq-ZjaIjU\" x=\"770\" y=\"625\"><comment id=\"[qy]G:%(q7_Mnsv9BWKm\" pinned=\"true\" h=\"150\" w=\"200\" x=\"1530\" y=\"640\" minimized=\"false\">Doe de arm omhoog.</comment><statement name=\"custom_block\"><shadow type=\"procedures_prototype\" id=\"gIE1p684W2Qsqq}B|4~f\"><mutation proccode=\"raise arm\" argumentids=\"[]\" argumentnames=\"[]\" argumentdefaults=\"[]\" warp=\"false\"></mutation></shadow></statement><next><block type=\"ev3motor_motorSetSpeed\" id=\")/=(E_RUDNA4#AtG*?z*\"><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"^lXnoXem]CRvO!Wu{|c5\"><field name=\"outputPort\">2</field></shadow></value><value name=\"SPEED\"><shadow type=\"math_number\" id=\"Wuy/^45MIEo[SCX7m{W)\"><field name=\"NUM\">50</field></shadow></value><next><block type=\"ev3motor_motorSetStopAction\" id=\"-n|z9so,a6B?;V`]c/:Q\"><field name=\"OPTION\">0</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"I*Z$`a]H[RTjaO%qt3sP\"><field name=\"outputPort\">2</field></shadow></value><next><block type=\"ev3motor_motorStart\" id=\"md2KB6Gk?{oefaN5vnr`\"><field name=\"DIRECTION\">counterclockwise</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"_@Zk2mKWpWiV{8=~m4ah\"><field name=\"outputPort\">2</field></shadow></value><next><block type=\"control_wait_until\" id=\"d2%8A%Lq78#,l?jHGV[A\"><value name=\"CONDITION\"><block type=\"ev3sensors_isEV3ColorSensorReflected\" id=\"]$kivK,BUZ@Y?x9eX#i=\"><field name=\"COMPARATOR\">2</field><comment id=\"T;KQIV0(_h~2350M`|EM\" pinned=\"true\" h=\"150\" w=\"200\" x=\"1530\" y=\"868\" minimized=\"false\">Plaats de arm op het hoogste punt.</comment><value name=\"PORT\"><shadow type=\"ev3sensors_menu_inputPort\" id=\"5,0o.-o*Bl5ks?WBz+*K\"><field name=\"inputPort\">3</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"GvX|bq;?;%AW,2qS,2xf\"><field name=\"NUM\">25</field></shadow></value></block></value><next><block type=\"ev3motor_motorStop\" id=\"qVSK=2j[Av@WBF186}x0\"><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"_n99J:d/iFrn=J+#Z8qy\"><field name=\"outputPort\">2</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block><block type=\"procedures_definition\" id=\"sXd979*.^N{9zDYW?!F}\" x=\"770\" y=\"1036\"><comment id=\"%^scX-dASKskMt0uFA^t\" pinned=\"true\" h=\"150\" w=\"200\" x=\"1530\" y=\"1051\" minimized=\"false\">Doe de arm omlaag.</comment><statement name=\"custom_block\"><shadow type=\"procedures_prototype\" id=\"I)Q]9siz(CXTPd{!,Lin\"><mutation proccode=\"lower arm\" argumentids=\"[]\" argumentnames=\"[]\" argumentdefaults=\"[]\" warp=\"false\"></mutation></shadow></statement><next><block type=\"ev3motor_motorSetSpeed\" id=\"iJsW}w]G~@8u@S~::J=C\"><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"Be_zwr5@=6Zs^SNqU)3T\"><field name=\"outputPort\">2</field></shadow></value><value name=\"SPEED\"><shadow type=\"math_number\" id=\"mfNGHVBNABN@mID3*:L=\"><field name=\"NUM\">20</field></shadow></value><next><block type=\"ev3motor_motorSetStopAction\" id=\"l.@z3ma9{Uy.hCx1!q0a\"><field name=\"OPTION\">1</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"617@[@t;-1;SQ.=+Jah6\"><field name=\"outputPort\">2</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"C.jVHE/H}$~P@N#Pe)~r\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">degrees</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"-G|oyi?(lS]7BUiD^_21\"><field name=\"outputPort\">2</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"%!lVgHM3ZaI?|f?qvddZ\"><field name=\"NUM\">275</field></shadow></value></block></next></block></next></block></next></block><block type=\"procedures_definition\" id=\"QDv-LtKmuZe^n{vN/6=L\" x=\"770\" y=\"1338\"><comment id=\"v`N^(8+ZWfQDy~O|THr]\" pinned=\"true\" h=\"150\" w=\"200\" x=\"1530\" y=\"1354\" minimized=\"false\">Open de grijper.</comment><statement name=\"custom_block\"><shadow type=\"procedures_prototype\" id=\"LadUi$`25Ita}jZ+$)gP\"><mutation proccode=\"open gripper\" argumentids=\"[]\" argumentnames=\"[]\" argumentdefaults=\"[]\" warp=\"false\"></mutation></shadow></statement><next><block type=\"ev3motor_motorSetSpeed\" id=\"v=8Pe`%,LI?J}2~UMkeE\"><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"o2Dx7GX#|.nm:GAe%g%z\"><field name=\"outputPort\">1</field></shadow></value><value name=\"SPEED\"><shadow type=\"math_number\" id=\"zY2O;~u-}PKleKlVk::I\"><field name=\"NUM\">50</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"9i=wF+x/HLT%xX*(^e3]\"><field name=\"DIRECTION\">counterclockwise</field><field name=\"UNIT\">degrees</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"QJBJOQy@b3Fp4gQkM^OX\"><field name=\"outputPort\">1</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"O`.DTZ@+C0}l5HU(EzQf\"><field name=\"NUM\">90</field></shadow></value></block></next></block></next></block><block type=\"procedures_definition\" id=\"!6caz2WN;pEn1#+PMeYP\" x=\"770\" y=\"1579\"><comment id=\"a_das%Cl4yda-{Ts|mk[\" pinned=\"true\" h=\"150\" w=\"200\" x=\"1530\" y=\"1594\" minimized=\"false\">Sluit de grijper.</comment><statement name=\"custom_block\"><shadow type=\"procedures_prototype\" id=\"3DlU2iK`^l?zxp6,f22Z\"><mutation proccode=\"close gripper\" argumentids=\"[]\" argumentnames=\"[]\" argumentdefaults=\"[]\" warp=\"false\"></mutation></shadow></statement><next><block type=\"ev3motor_motorSetSpeed\" id=\"Lr::w{`rXq7!xb|_z{Vb\"><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\";#$zy=9vH?IYZ~]M3_/x\"><field name=\"outputPort\">1</field></shadow></value><value name=\"SPEED\"><shadow type=\"math_number\" id=\"g(El^ryuw(9|NqJ)O#wG\"><field name=\"NUM\">30</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"Q,YpqWZEsL_IT,Vs9+,0\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">seconds</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"H[;e[Ef2/ZP+b{#s:M^/\"><field name=\"outputPort\">1</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"NV6=ABG`c)6e=r[duTc.\"><field name=\"NUM\">1</field></shadow></value></block></next></block></next></block></xml>",
+        "add": true
+      },
+      "allowClickThrough": true
+    }
+  ]
+}

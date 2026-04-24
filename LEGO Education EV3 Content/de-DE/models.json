@@ -1,0 +1,37 @@
+{
+  "id": "unit-plans",
+  "units": [
+    {
+      "description": "Untertitel mit zusätzlichen Informationen (ca. diese Länge)",
+      "id": "core-models-edu",
+      "title": "Modelle des EV3 Sets",
+      "image": "/images/core-models/unit-plan-core-set.png",
+      "activities": [
+        {
+          "description": "<p>Dieser Roboter reagiert nicht nur auf Farben und Gegenstände, sondern hält auch die Balance, während er umherfährt!</p>",
+          "id": "model-1",
+          "title": "Gyro Boy",
+          "image": "/images/core-models/lesson-tile-4-1.png"
+        },
+        {
+          "description": "<p>Scanne farbige Gegenstände und lade sie auf. Lass sie dann vom Farbsortierer im richtigen Bereich ablegen!</p>",
+          "id": "model-2",
+          "title": "Farbsortierer",
+          "image": "/images/core-models/lesson-tile-4-2.png"
+        },
+        {
+          "description": "<p>Beschäftige dich mit diesem putzigen Roboter. Du kannst ihn streicheln, füttern und seine Reaktionen beobachten!</p>",
+          "id": "model-3",
+          "title": "Hund",
+          "image": "/images/core-models/lesson-tile-4-3.png"
+        },
+        {
+          "description": "<p>Lass den Roboter an bestimmten Orten Gegenstände aufheben und an anderen Stellen ablegen!</p>",
+          "id": "model-4",
+          "title": "Roboterarm H25",
+          "image": "/images/core-models/lesson-tile-4-4.png"
+        }
+      ]
+    }
+  ]
+}

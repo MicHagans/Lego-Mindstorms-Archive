@@ -1,0 +1,38 @@
+[
+  {
+    "type": "banner",
+    "title": "Начало работы",
+    "description": "Познакомьтесь с решением EV3, выполнив три простых задания.",
+    "link": {
+      "path": "/content/start/",
+      "title": "Начало работы"
+    },
+    "background": "#f5f5f5",
+    "image": {
+      "image": "/images/lobby-banner-primary.png",
+      "color": "#f5f5f5"
+    }
+  },
+  {
+    "type": "recentprojects"
+  },
+  {
+    "type": "cards",
+    "cards": [
+      {
+        "title": "Учебно-методические материалы",
+        "description": "Все проекты, представленные в приложении EV3 Classroom, сгруппированы в тематические курсы, призванные активно вовлекать обучающихся основной школы в изучение предметов естественно-научного и технического цикла (предметы STEM).",
+        "image": "/images/lobby-card-unit-plans.png",
+        "background": "#ffffff",
+        "link": "/content/unit-plans/"
+      },
+      {
+        "title": "Модели, которые можно собрать из базового набора",
+        "description": "Эти модели станут для вас возможностью проверить свои знания в области робототехники и вдохновят на решение новых задач. Переходим на новый уровень мастерства инженерного проектирования с LEGO<sup>®</sup> MINDSTORMS<sup>®</sup> Education EV3!",
+        "image": "/images/lobby-card-core-set-models.png",
+        "background": "#ffffff",
+        "link": "/content/core-models/core-models-edu"
+      }
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "id": "gettingstarted2",
+  "title": "모터와 센서",
+  "toolbox": [
+    "ev3events_whenProgramStarts",
+    "ev3events_whenEV3ColorSensorColor",
+    "ev3events_whenEV3TouchSensorPressed",
+    "ev3motor_motorTurnFor"
+  ],
+  "steps": [
+    {
+      "id": "step1",
+      "title": "입력과 출력을 시도해보아요!",
+      "description": "<p>라지 모터, 터치 센서, 컬러 센서를 제어하는 법을 알아볼 거예요.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card01.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": false,
+      "clickHighlight": {
+        "location": "next",
+        "description": "다음 단계"
+      },
+      "code": {
+        "add": true,
+        "alwaysAdd": true,
+        "clear": true,
+        "show": false,
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"ev3events_whenProgramStarts\" id=\"lzS7u9d_Wvota4HQaWTZ\" x=\"0\" y=\"0\"><next><block type=\"ev3motor_motorTurnFor\" id=\"^S{a}@j2Nz@4^pnqBZJ4\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"$ovK+]7}:Bo-vVLf.UPT\"><field name=\"outputPort\">4</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"lEu|s7zXj;**8rAn4$l[\"><field name=\"NUM\">1</field></shadow></value></block></next></block></xml>"
+      }
+    },
+    {
+      "id": "step2",
+      "title": "라지 모터를 포트 D에 연결하세요.",
+      "description": "<p>이 프로그램을 다운로드하고 실행하세요.<br><br>어떤 일이 벌어지나요?</p>",
+      "image": "/images/activities/gettingstarted/gs2/card02.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "다음 단계"
+      }
+    },
+    {
+      "id": "step3",
+      "title": "회전했나요?",
+      "description": "<p>모터가 한쪽 방향으로 회전하다가 멈추었는지 확인하세요.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card03.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step4",
+      "title": "터치 센서를 포트 1에 연결하세요.",
+      "description": "<p>이 프로그램을 다운로드하고 실행하세요.<br><br>터치 센서를 누르면 어떤 일이 벌어지나요?</p>",
+      "image": "/images/activities/gettingstarted/gs2/card04.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "code": {
+        "add": true,
+        "alwaysAdd": true,
+        "clear": true,
+        "show": false,
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"ev3events_whenEV3TouchSensorPressed\" id=\"Fc|U2mvI1}T]wF/Xyepv\" x=\"0\" y=\"0\"><field name=\"EVENT\">1</field><value name=\"PORT\"><shadow type=\"ev3events_menu_inputPort\" id=\"Btlo{=e9AO.xbpQec%)K\"><field name=\"inputPort\">1</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"p^bTJujj`8J^)BZ+LO?i\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"Vr/L4jjv$cEXyOL*W`ji\"><field name=\"outputPort\">4</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"6_6q[TnJ_Ii?ieE!poC5\"><field name=\"NUM\">1</field></shadow></value></block></next></block></xml>"
+      }
+    },
+    {
+      "id": "step5",
+      "title": "눌렀다는 것을 감지했나요?",
+      "description": "<p>터치 센서를 누른 후에 라지 모터가 한 바퀴 회전했는지 확인하세요.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card05.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step6",
+      "title": "컬러 센서를 포트 4에 연결하세요.",
+      "description": "<p>이 프로그램을 다운로드하고 실행하세요.<br><br>컬러 센서 앞에 녹색 브릭을 놓아주면 어떤 일이 벌어질까요?</p>",
+      "image": "/images/activities/gettingstarted/gs2/card06.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "code": {
+        "add": true,
+        "alwaysAdd": true,
+        "clear": true,
+        "show": false,
+        "snippet": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"ev3events_whenEV3ColorSensorColor\" id=\"_s%8%-^}xUWtIwv9%F`x\" x=\"0\" y=\"0\"><value name=\"PORT\"><shadow type=\"ev3events_menu_inputPort\" id=\"-g[bbBD2nDwiBvT9l^2I\"><field name=\"inputPort\">4</field></shadow></value><value name=\"EVENT\"><shadow type=\"ev3events_menu_colorEvent\" id=\"vN6mQw{(u(tX2eEL4EF$\"><field name=\"colorEvent\">3</field></shadow></value><next><block type=\"ev3motor_motorTurnFor\" id=\"p^bTJujj`8J^)BZ+LO?i\"><field name=\"DIRECTION\">clockwise</field><field name=\"UNIT\">rotations</field><value name=\"PORT\"><shadow type=\"ev3motor_menu_outputPort\" id=\"Vr/L4jjv$cEXyOL*W`ji\"><field name=\"outputPort\">4</field></shadow></value><value name=\"VALUE\"><shadow type=\"math_number\" id=\"6_6q[TnJ_Ii?ieE!poC5\"><field name=\"NUM\">1</field></shadow></value></block></next></block></xml>"
+      }
+    },
+    {
+      "id": "step7",
+      "title": "녹색 브릭을 감지했나요?",
+      "description": "<p>컬러 센서가 녹색 브릭을 탐지한 후에 라지 모터가 한 바퀴 회전했는지 확인하세요.</p>",
+      "image": "/images/activities/gettingstarted/gs2/card07.png",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true
+    },
+    {
+      "id": "step8",
+      "image": "/images/activities/gettingstarted/gs2/card08.png",
+      "title": "잘했어요!",
+      "description": "<p>다음은 뭔가요?<br><br>다음 활동에 대해 알아보아요.</p>",
+      "hideToolbox": false,
+      "requireConnection": false,
+      "allowClickThrough": true,
+      "clickHighlight": {
+        "location": "next",
+        "description": "다음 활동"
+      },
+      "doneAction": {
+        "startNext": "gettingstarted3",
+        "startTitle": "달려보아요"
+      }
+    },
+    {
+      "id": "step9",
+      "allowClickThrough": true
+    }
+  ],
+  "description": "",
+  "duration": 30,
+  "image": "",
+  "level": "Beginner",
+  "subtitle": "",
+  "isGettingStarted": true
+}
